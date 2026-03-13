@@ -1,0 +1,20 @@
+[2026-03-13T01:08:53.068Z] Executing Query: Driver={ODBC Driver 17 for SQL Server};Server=10.0.1.21,1433;Database=nfatcFeature;Uid=nfasa;Pwd={***};Encrypt=yes;TrustServerCertificate=yes;ColumnEncryption=Enabled;
+[2026-03-13T01:08:53.070Z] SQL: 
+      SELECT TABLE_SCHEMA, TABLE_NAME 
+      FROM INFORMATION_SCHEMA.TABLES 
+      WHERE TABLE_TYPE = 'BASE TABLE'
+    
+[2026-03-13T01:08:53.309Z] SUCCESS: Result is Decrypted
+[2026-03-13T01:09:18.794Z] Executing Query: Driver={ODBC Driver 17 for SQL Server};Server=10.0.1.21,1433;Database=nfatcFeature;Uid=nfasa;Pwd={***};Encrypt=yes;TrustServerCertificate=yes;ColumnEncryption=Enabled;
+[2026-03-13T01:09:18.796Z] SQL: SELECT UUID, ID_NO, CHT_NAME, MOBILE_NO, EMAIL, SEX, BIRTHDAY FROM COMM_Person WHERE UUID = '2FC5A696-6188-40D6-95D5-000010618048'
+[2026-03-13T01:09:18.854Z] SUCCESS: Result is Decrypted
+[2026-03-13T01:11:06.215Z] Executing Query: Driver={ODBC Driver 17 for SQL Server};Server=10.0.1.21,1433;Database=nfatcFeature;Uid=nfasa;Pwd={***};Encrypt=yes;TrustServerCertificate=yes;ColumnEncryption=Enabled;
+[2026-03-13T01:11:06.218Z] SQL: 
+      SELECT TABLE_SCHEMA, TABLE_NAME 
+      FROM INFORMATION_SCHEMA.TABLES 
+      WHERE TABLE_TYPE = 'BASE TABLE'
+    
+[2026-03-13T01:11:06.478Z] SUCCESS: Result is Decrypted
+[2026-03-13T01:11:32.247Z] Executing Query: Driver={ODBC Driver 17 for SQL Server};Server=10.0.1.21,1433;Database=nfatcFeature;Uid=nfasa;Pwd={***};Encrypt=yes;TrustServerCertificate=yes;ColumnEncryption=Enabled;
+[2026-03-13T01:11:32.248Z] SQL: SELECT UUID, ID_NO, CHT_NAME, MOBILE_NO, EMAIL, SEX, BIRTHDAY FROM COMM_Person WHERE UUID = '0090FB82-FA35-4F76-A7AF-0012B385F3DE'
+[2026-03-13T01:11:32.292Z] SUCCESS: Result is Decrypted
